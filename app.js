@@ -16,11 +16,11 @@ function toss(clickBtn){
 if(tossVal===0){
 
 
-div.innerHTML =`<p><img src="./images/Chaand.jpeg" width="200px" height="200px" alt=""></p>`
+div.innerHTML =`<p><img src="./image/Chaand.jpeg" width="200px" height="200px" alt=""></p>`
 
 }else if(tossVal===1){
 
-div.innerHTML = `<p><img src="./images/masjid.jpg" width="200px" height="200px" alt=""></p>`
+div.innerHTML = `<p><img src="./image/masjid.jpg" width="200px" height="200px" alt=""></p>`
 
 } if(clickBtn === 'Chaand' && tossVal=== 0 || clickBtn ==='Masjid' && tossVal === 1){
     paragraph.innerHTML="You win the toss";
